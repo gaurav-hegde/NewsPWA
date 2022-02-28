@@ -38,7 +38,7 @@ fetch('https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=c49b42a979b9
             newsHtml += news;
         });
         news_card.innerHTML = newsHtml;
-  });
+  }).catch(error => console.log(error));
 
 
 
