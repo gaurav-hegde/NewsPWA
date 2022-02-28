@@ -1,0 +1,15 @@
+{
+    "name": "News Site",
+    "short_name": "News",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#000",
+    "description": "News app displaying BBC News",
+    "icons":[
+        {
+            "src": "images/newspaper.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
