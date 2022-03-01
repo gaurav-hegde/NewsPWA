@@ -44,7 +44,7 @@ var currentPage = 1
                 <div class="card-body">
                     <h5 class="card-title"> ${element["title"]} </h5>
                     <p class="card-text">${element["excerpt"]}</p>
-                    <a href="${element["clean_url"]}" class="btn btn-warning">Go somewhere</a>
+                    <a href="${element["link"]}" class="btn btn-warning">Article</a>
                 </div>
                 </div>
                 `;
